@@ -1,0 +1,118 @@
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [
+    {
+      "name": "Install Dependencies",
+      "command": "yarn install"
+    }
+  ],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "prettier": {
+      "name": "prettier",
+      "command": "yarn prettier",
+      "runAtStart": false
+    },
+    "verify-git-not-dirty": {
+      "name": "verify-git-not-dirty",
+      "command": "yarn verify-git-not-dirty",
+      "runAtStart": false
+    },
+    "_unlink": {
+      "name": "_unlink",
+      "command": "yarn _unlink",
+      "runAtStart": false
+    },
+    "_install": {
+      "name": "_install",
+      "command": "yarn _install",
+      "runAtStart": false
+    },
+    "test": {
+      "name": "test",
+      "command": "yarn test",
+      "runAtStart": false
+    },
+    "lerna": {
+      "name": "lerna",
+      "command": "yarn lerna",
+      "runAtStart": false
+    },
+    "install:packages": {
+      "name": "install:packages",
+      "command": "yarn install:packages",
+      "runAtStart": false
+    },
+    "bootstrap": {
+      "name": "bootstrap",
+      "command": "yarn bootstrap",
+      "runAtStart": false
+    },
+    "reset": {
+      "name": "reset",
+      "command": "yarn reset",
+      "runAtStart": false
+    },
+    "watch": {
+      "name": "watch",
+      "command": "yarn watch",
+      "runAtStart": false
+    },
+    "develop": {
+      "name": "develop",
+      "command": "yarn develop",
+      "runAtStart": false
+    },
+    "build": {
+      "name": "build",
+      "command": "yarn build",
+      "runAtStart": false
+    },
+    "release:patch": {
+      "name": "release:patch",
+      "command": "yarn release:patch",
+      "runAtStart": false
+    },
+    "release:minor": {
+      "name": "release:minor",
+      "command": "yarn release:minor",
+      "runAtStart": false
+    },
+    "release:prerelease:dev": {
+      "name": "release:prerelease:dev",
+      "command": "yarn release:prerelease:dev",
+      "runAtStart": false
+    },
+    "release:dev": {
+      "name": "release:dev",
+      "command": "yarn release:dev",
+      "runAtStart": false
+    },
+    "prepublishOnly": {
+      "name": "prepublishOnly",
+      "command": "yarn prepublishOnly",
+      "runAtStart": false
+    },
+    "ci:lint": {
+      "name": "ci:lint",
+      "command": "yarn ci:lint",
+      "runAtStart": false
+    },
+    "lint:fix": {
+      "name": "lint:fix",
+      "command": "yarn lint:fix",
+      "runAtStart": false
+    },
+    "update-npm-dependency": {
+      "name": "update-npm-dependency",
+      "command": "yarn update-npm-dependency",
+      "runAtStart": false
+    },
+    "prepare": {
+      "name": "prepare",
+      "command": "yarn prepare",
+      "runAtStart": false
+    }
+  }
+}
