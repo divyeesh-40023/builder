@@ -11,108 +11,91 @@
   "tasks": {
     "prettier": {
       "name": "prettier",
-      "command": "yarn prettier",
-      "runAtStart": false
+      "command": "yarn prettier"
     },
     "verify-git-not-dirty": {
       "name": "verify-git-not-dirty",
-      "command": "yarn verify-git-not-dirty",
-      "runAtStart": false
+      "command": "yarn verify-git-not-dirty"
     },
     "_unlink": {
       "name": "_unlink",
-      "command": "yarn _unlink",
-      "runAtStart": false
+      "command": "yarn _unlink"
     },
     "_install": {
       "name": "_install",
-      "command": "yarn _install",
-      "runAtStart": false
+      "command": "yarn _install"
     },
     "test": {
       "name": "test",
-      "command": "yarn test",
-      "runAtStart": false
+      "command": "yarn test"
     },
     "lerna": {
       "name": "lerna",
-      "command": "yarn lerna",
-      "runAtStart": false
+      "command": "yarn lerna"
     },
     "install:packages": {
       "name": "install:packages",
-      "command": "yarn install:packages",
-      "runAtStart": false
+      "command": "yarn install:packages"
     },
     "bootstrap": {
       "name": "bootstrap",
-      "command": "yarn bootstrap",
-      "runAtStart": false
+      "command": "yarn bootstrap"
     },
     "reset": {
       "name": "reset",
-      "command": "yarn reset",
-      "runAtStart": false
+      "command": "yarn reset"
     },
     "watch": {
       "name": "watch",
-      "command": "yarn watch",
-      "runAtStart": false
+      "command": "yarn watch"
     },
     "develop": {
       "name": "develop",
-      "command": "yarn develop",
-      "runAtStart": false
+      "command": "yarn develop"
     },
     "build": {
       "name": "build",
-      "command": "yarn build",
-      "runAtStart": false
+      "command": "yarn build"
     },
     "release:patch": {
       "name": "release:patch",
-      "command": "yarn release:patch",
-      "runAtStart": false
+      "command": "yarn release:patch"
     },
     "release:minor": {
       "name": "release:minor",
-      "command": "yarn release:minor",
-      "runAtStart": false
+      "command": "yarn release:minor"
     },
     "release:prerelease:dev": {
       "name": "release:prerelease:dev",
-      "command": "yarn release:prerelease:dev",
-      "runAtStart": false
+      "command": "yarn release:prerelease:dev"
     },
     "release:dev": {
       "name": "release:dev",
-      "command": "yarn release:dev",
-      "runAtStart": false
+      "command": "yarn release:dev"
     },
     "prepublishOnly": {
       "name": "prepublishOnly",
-      "command": "yarn prepublishOnly",
-      "runAtStart": false
+      "command": "yarn prepublishOnly"
     },
     "ci:lint": {
       "name": "ci:lint",
-      "command": "yarn ci:lint",
-      "runAtStart": false
+      "command": "yarn ci:lint"
     },
     "lint:fix": {
       "name": "lint:fix",
-      "command": "yarn lint:fix",
-      "runAtStart": false
+      "command": "yarn lint:fix"
     },
     "update-npm-dependency": {
       "name": "update-npm-dependency",
-      "command": "yarn update-npm-dependency",
-      "runAtStart": false
+      "command": "yarn update-npm-dependency"
     },
     "prepare": {
       "name": "prepare",
-      "command": "yarn prepare",
-      "runAtStart": false
+      "command": "yarn prepare"
+    },
+    "CSB_RUN_OUTSIDE_CONTAINER=1 devcontainer templates apply --template-id \"ghcr.io/devcontainers/templates/javascript-node\" --template-args '{}' --features '[]'": {
+      "name": "Environment setup",
+      "command": "CSB_RUN_OUTSIDE_CONTAINER=1 devcontainer templates apply --template-id \"ghcr.io/devcontainers/templates/javascript-node\" --template-args '{}' --features '[]'"
     }
   }
 }
